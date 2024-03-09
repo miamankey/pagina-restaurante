@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Exquisito</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-GLhlTQ8iE705bYY6LGlAwR/lM/kqMWLm5aFf5eR5EFiJ6eFZ5L5QVh1UuRN7fN2m" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url(https://cdn.forbes.com.mx/2017/09/Restaurantes-mexicanos-P.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+        color: white;
+    }
+
+    .encabezado {
+        width: 100%;
+        background-color: darkgrey;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+    }
+
+    .item:hover {
+        background-color: rgb(56, 64, 71);
+        border-bottom: solid white 1px;
+    }
+
+    .lisitem {
+        position: relative;
+    }
+
+    #boton {
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+    .logo {
+        width: 250px;
+        height: 150px;
+        border-radius: 15px;
+        border: 5px solid black;
+    }
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        color: aliceblue;
+    }
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+    }
+
+    .destacado {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .destacado div {
+        width: 48%;
+    }
+
+    .destacado h3 {
+        color: aliceblue;
+        background-color: maroon;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .destacado p {
+        margin-top: 10px;
+    }
+
+    .destacado img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 5px solid maroon;
+    }
+</style>
+<body>
+    <header class="encabezado">
+        <div class="logo__div">
+            <img class="logo" src="https://www.abasturhub.com/img/blog/mejores-restaurantes---diseno-sin-titulo.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_2.html"><i class="fas fa-home"></i>Platillos</a>
+                </li>
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_3.html"><i class="fas fa-utensils"></i>Platillos especiales</a>
+                </li>
+            
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_5.html"><i class="fas fa-users"></i>Bebidas</a>
+                </li>
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_6.html"><i class="fas fa-envelope"></i>Postres</a>
+                </li>
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_4.html"><i class="fas fa-calendar-alt"></i>Reservas</a>
+                </li>
+                <li class="lisitem">
+                    <a class="item" href="CORTINEZ_GOMEZ_A8_7.html"><i class="fas fa-envelope"></i>A cerca de nosotros</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="boton__div">
+            <button id="boton"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <h1>Bienvenido a Restaurante Exquisito</h1>
+    <section>
+        <h2 align="center">Descubre la Experiencia Gastronómica Única</h2>
+        <p>
+            En Restaurante Exquisito, te invitamos a disfrutar de una experiencia culinaria única y memorable.
+            Nuestro compromiso es ofrecerte platos deliciosos preparados con ingredientes frescos y de la más alta calidad.
+        </p>
+        <div class="destacado">
+            <div class="Comida">
+                <h3>Platillos</h3>
+                <p>Explora nuestra amplia variedad de platos que satisfacen todos los gustos y apetitos. Desde entradas deliciosas hasta platos principales exquisitos.</p>
+                <img src="https://cdn-3.expansion.mx/dims4/default/67914fa/2147483647/strip/true/crop/1638x2048+0+0/resize/1200x1500!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fb5%2Fa9%2F148bd3ba4ab780899ecd12d46cb7%2Fsalon-gallos-merida.jpg" alt="Comida del Restaurante Exquisito">
+            </div>
+            <div class="platillos-especiales">
+                <h3>Platillos Especiales</h3>
+                <p>Descubre nuestras creaciones únicas y exclusivas que te sorprenderán. Ideal para ocasiones especiales o cuando buscas algo extraordinario.</p>
+                <img src="https://media.admagazine.com/photos/618a5d11532cae908aaf27ab/master/w_1600%2Cc_limit/96644.jpg" alt="Platillo Especial del Restaurante Exquisito">
+            </div>
+            <div class="postres">
+                <h3>Postres</h3>
+                <p>Termina tu experiencia con nuestros irresistibles postres. Desde clásicos reconfortantes hasta innovadoras creaciones que deleitarán tu paladar.</p>
+                <img src="https://robbreport.mx/wp-content/uploads/2019/04/postres.jpg" alt="Postre del Restaurante Exquisito">
+            </div>
+            <div class="promociones">
+                <h3>Promociones</h3>
+                <p>Aprovecha nuestras ofertas y promociones especiales. Te ofrecemos descuentos exclusivos y paquetes que harán tu visita aún más especial.</p>
+                <img src="https://static.wixstatic.com/media/65a025_5cf78d2c1bf24f279a09769827e5668c~mv2.jpg/v1/fill/w_640,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/65a025_5cf78d2c1bf24f279a09769827e5668c~mv2.jpg" alt="Promoción del Restaurante Exquisito">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Restaurante Exquisito. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

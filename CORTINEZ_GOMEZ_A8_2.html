@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Platillos</title>
+    <style>
+        body {
+            background-image: url(https://sirviella.com/noticias/wp-content/uploads/2019/04/material-vajilla.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color:darkred;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menú de Platillos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Platillo</th>
+                <th>Imagen</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lasaña de Carne</td>
+                <td><img src="https://cdn2.cocinadelirante.com/680x400/filters:format(jpg):quality(75)/sites/default/files/images/2023/08/como-hacer-lasana-en-sarten.jpg" alt="Lasaña de Carne"></td>
+                <td>Deliciosa lasaña con capas de carne, pasta y salsa de tomate.</td>
+                <td>$12.99</td>
+            </tr>
+            <tr>
+                <td>Sushi Variado</td>
+                <td><img src="https://images.ctfassets.net/n7hs0hadu6ro/15Yz956cdhEXuBr8BWKd5p/9422442a61fa16954a4bafd0702935dc/iStock-1354366250.jpg?w=1254&h=836&fl=progressive&q=50&fm=jpg" alt="Sushi Variado"></td>
+                <td>Combinación de sushi fresco y variado con diferentes sabores.</td>
+                <td>$18.99</td>
+            </tr>
+            <tr>
+                <td>Pizza Margarita</td>
+                <td><img src="https://recetinas.com/wp-content/uploads/2017/09/pizza-de-albahaca-y-tomatitos-cherry-receta.jpg" alt="Pizza Margarita"></td>
+                <td>Clásica pizza con salsa de tomate, mozzarella y albahaca fresca.</td>
+                <td>$15.99</td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="window.location.href='Index.html'">Regresar a la Página Principal</button>
+</body>
+</html>
